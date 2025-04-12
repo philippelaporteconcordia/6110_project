@@ -323,7 +323,6 @@ def initiator(host, port):
         sys.stderr.write('\r')  # eat the ^C TODO not working in Powershell! 
     except Exception as e:
         print(e)
-        pass
     finally:
         print('Ending conversation')
         try:      
