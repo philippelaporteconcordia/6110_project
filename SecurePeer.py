@@ -1,6 +1,6 @@
 #    securepeer.py
 #
-#    RSA+AES Hybrid Secure TCP channnel
+#    RSA+AES Hybrid Secure TCP/IP channel
 #
 #    Author: Philippe Laporte <philippe.laporte@mail.concordia.ca> 
 #
