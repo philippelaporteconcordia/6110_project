@@ -201,6 +201,8 @@ class Responder(SecurePeer):
 
     def establish_session(self):
         try:
+            print('Awaiting peer public key')
+
             peer_public_key_pem = self.client_socket.recv(self.RSA_KEY_SIZE)    # Key size is upper-bound on pem size
 
             peer_public_key = serialization.load_pem_public_key(
